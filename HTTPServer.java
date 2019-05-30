@@ -168,7 +168,7 @@ public class HTTPServer implements Runnable {
 	static int hasMoved(String fileRequested) { // Returns the index of the new file or -1 otherwise
 		int i = 0;
 		// Go through the moved files array to determine if the requested file is there
-		for (i = 0; i < movedFiles.length; i=i+2) { // Old and new files are paired in 2's
+		for (i = 0; i < movedFiles.length; i = i + 2) { // Old and new files are paired in 2's
 			if (movedFiles[i].equals(fileRequested)) { 
 				return i + 1; // The new file location will always be one ahead of the old file
 			}
