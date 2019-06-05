@@ -15,7 +15,7 @@
 *       Handles requests and responses for pages with
 *       status code 200, 404, or 301.
 *
-*       Copyright 2017, Jacob Wilkins.  All rights reserved.
+*       Copyright 2019, Jacob Wilkins.  All rights reserved.
 * 
 * AUTHOR :    Jacob Wilkins        START DATE :    25 Feb 19
 *
