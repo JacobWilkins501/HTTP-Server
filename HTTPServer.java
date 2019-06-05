@@ -1,4 +1,25 @@
-// Author: Jacob Wilkins
+/*H************************************************************************
+* FILENAME :        HTTPServer.java
+*
+* DESCRIPTION :
+*       Acts as an HTTP Server for a local host 
+*
+* PRIVATE FUNCTIONS :
+*       void     movedPermanently( PrintWriter, OutputStream, String )
+*       void     ok( PrintWriter, OutputStream, String, String )
+*       void     fileNotFound( PrintWriter, OutputStream, String )
+*       byte[]   readFileData( File, int )
+*       String   getContentType( String )
+*
+* NOTES :
+*       Handles requests and responses for pages with
+*       status code 200, 404, or 301.
+*
+*       Copyright 2017, Jacob Wilkins.  All rights reserved.
+* 
+* AUTHOR :    Jacob Wilkins        START DATE :    25 Feb 19
+*
+*H*/
 
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
